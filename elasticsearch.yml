@@ -1,0 +1,4 @@
+path:
+  data: /var/lib/elasticsearch
+  logs: /var/log/elasticsearch
+xpack.security.enabled: true
