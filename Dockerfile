@@ -38,6 +38,6 @@ RUN ln -s /etc/logstash/startup.options ${LS_HOME}/config/startup.options
 COPY ./start.sh /usr/local/bin/start.sh
 RUN chmod +x /usr/local/bin/start.sh
 
-EXPOSE 5601 5044
+EXPOSE 5601 9200 5044
 
 CMD /usr/local/bin/start.sh
